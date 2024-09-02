@@ -142,7 +142,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 Here is an expected gif of the preview of the App(Training Exercise App)
 
-## ![Training Exercise App gif](./public/feed-posts.gif)
+## ![Training Exercise App gif](./assets/training-auth.gif)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
