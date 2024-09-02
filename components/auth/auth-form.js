@@ -3,6 +3,7 @@
 import { auth } from "@/actions/auth/auth-actions";
 import Link from "next/link";
 import { useFormState } from "react-dom";
+import PropTypes from "prop-types";
 
 export default function AuthForm({ mode }) {
   //mode is "login","signup"
@@ -44,3 +45,7 @@ export default function AuthForm({ mode }) {
     </form>
   );
 }
+
+AuthForm.propTypes = {
+  mode: PropTypes.oneOf(["login", "signup"]).isRequired,
+};

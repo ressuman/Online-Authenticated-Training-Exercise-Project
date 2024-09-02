@@ -79,7 +79,7 @@ export async function auth(mode, prevState, formData) {
   return signUp(prevState, formData);
 }
 
-export async function logOut(mode, prevState, formData) {
+export async function logOut() {
   await destroySession();
   redirect("/");
 }
